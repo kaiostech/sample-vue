@@ -1,29 +1,38 @@
-# my-first-vue-app-kaios
+# Sample Vue app for KaiOS
 
-## Project setup
-```
-yarn install
-```
+Simple example of a to-do list, for more information see [KaiOS Developer Portal](https://developer.kaiostech.com/getting-started/build-your-first-app/sample-code#vue)
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+![](./docs/to-do-on-input.png)
+![](./docs/to-do.png)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+In portrait devices
 
-### Run your tests
-```
-yarn run test
-```
+![](./docs/to-do-portrait.gif)
 
-### Lints and fixes files
-```
-yarn run lint
+In landscape devices
+
+![](./docs/to-do-landscape.gif)
+
+## Start
+
+```console
+npm run serve
+# or
+yarn serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Build app
+
+```console
+npm run build
+# or
+yarn build
+```
+
+## Send the app to a KaiOS device
+
+```console
+npm run app:install
+# or
+yarn app:install
+```
