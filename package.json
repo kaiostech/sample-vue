@@ -5,12 +5,7 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
-    "app:install": "kdeploy build install",
-    "app:uninstall": "kdeploy build uninstall",
-    "app:update": "kdeploy build update",
-    "app:start": "kdeploy build start",
-    "app:stop": "kdeploy build stop"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^2.6.5",
@@ -23,8 +18,7 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
-    "vue-template-compiler": "^2.6.10",
-    "kdeploy": "kaiostech/kdeploy"
+    "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
     "root": true,
